@@ -8,11 +8,16 @@ buildscript {
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
 	}
-	flyway {
-		url = 'jdbc:mysql://localhost/shiftr?serverTimezone=UTC'
-		user = 'root'
-		password =
-	}
+
+}
+
+plugins {
+	id "org.flywaydb.flyway" version "4.1.2"
+}
+
+flyway {
+	url = 'jdbc:mysql://localhost/upshift?serverTimezone=UTC'
+	user = 'root'
 }
 
 apply plugin: 'java'
