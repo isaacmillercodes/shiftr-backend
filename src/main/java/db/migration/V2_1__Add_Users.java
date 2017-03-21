@@ -3,7 +3,7 @@ package db.migration;
 import org.flywaydb.core.api.migration.spring.SpringJdbcMigration;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-//import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
+import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
 //import java.sql.Connection;
 //import java.sql.PreparedStatement;
 
