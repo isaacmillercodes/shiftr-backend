@@ -12,11 +12,6 @@ buildscript {
 		url = 'jdbc:mysql://localhost/shiftr?serverTimezone=UTC'
 		user = 'root'
 		password =
-		schemas = ['schema1', 'schema2', 'schema3']
-		placeholders = [
-				'keyABC': 'valueXYZ',
-				'otherplaceholder': 'value123'
-		]
 	}
 }
 
