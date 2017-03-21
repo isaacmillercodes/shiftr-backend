@@ -18,11 +18,13 @@ plugins {
 flyway {
 	url = 'jdbc:mysql://localhost/upshift?serverTimezone=UTC'
 	user = 'root'
+	locations = ['db.migration']
 }
 
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
+apply plugin: 'project-report'
 
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
@@ -36,6 +38,8 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.flywaydb:flyway-core')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.springframework.boot:spring-boot-starter-security')
 	runtime('mysql:mysql-connector-java')
+	testCompile('org.springframework.security:spring-security-test')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
