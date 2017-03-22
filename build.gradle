@@ -23,7 +23,6 @@ apply plugin: 'project-report'
 flyway {
 	url = 'jdbc:mysql://localhost/upshift?serverTimezone=UTC'
 	user = 'root'
-	locations = ['db.migration']
 }
 
 version = '0.0.1-SNAPSHOT'
@@ -39,7 +38,6 @@ dependencies {
 	compile('org.flywaydb:flyway-core')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-security')
-	compile("org.springframework:spring-jdbc")
 	runtime('mysql:mysql-connector-java')
 	testCompile('org.springframework.security:spring-security-test')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
