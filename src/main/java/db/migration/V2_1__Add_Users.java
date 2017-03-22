@@ -1,38 +1,29 @@
-package db.migration;
-
-import org.flywaydb.core.api.migration.spring.SpringJdbcMigration;
-import org.springframework.jdbc.core.JdbcTemplate;
-
-import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
+//package db.migration;
+//
+//import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
 //import java.sql.Connection;
 //import java.sql.PreparedStatement;
-
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-
-public class V2_1__Add_Users implements SpringJdbcMigration {
-
-    public void migrate(JdbcTemplate jdbcTemplate) throws Exception {
+//
+//public class V2_1__Add_Users implements JdbcMigration {
 //    public void migrate(Connection connection) throws Exception {
-
-        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(10);
-
-        String password = encoder.encode("test123");
-
-        jdbcTemplate.execute(String.format("INSERT INTO users VALUES ('test@test.com', %d)", password));
-
-
-//        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(10);
-//
-//        String password = encoder.encode("test123");
-//
 //        PreparedStatement statement =
-//                connection.prepareStatement("INSERT INTO users VALUES ('test@test.com', 'alright')";
+//                connection.prepareStatement("INSERT INTO users (email, password) VALUES ('test@test.com', 'test123')");
 //
 //        try {
 //            statement.execute();
 //        } finally {
 //            statement.close();
 //        }
+//    }
+//}
 
+package db.migration;
+
+        import org.flywaydb.core.api.migration.spring.SpringJdbcMigration;
+        import org.springframework.jdbc.core.JdbcTemplate;
+
+public class V2_1__Add_Users implements SpringJdbcMigration {
+    public void migrate(JdbcTemplate jdbcTemplate) throws Exception {
+        jdbcTemplate.execute("INSERT INTO users (email, password) VALUES ('test@test.com', 'test123')");
     }
 }
