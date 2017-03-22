@@ -1,6 +1,5 @@
 TRUNCATE TABLE locations;
 
--- create locations
 INSERT INTO locations (company_id, name, address, city, state, zip)
 VALUES
   ((SELECT id FROM companies WHERE name = 'Squared Circle Restaurants'), 'Raw Paleo Cafe', '1233 Broadway', 'Denver', 'Colorado', '80210'),

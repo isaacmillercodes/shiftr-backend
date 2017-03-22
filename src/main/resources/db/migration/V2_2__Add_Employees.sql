@@ -1,6 +1,5 @@
 TRUNCATE TABLE employees;
 
--- create employees
 INSERT INTO employees (user_id, email, phone, first_name, last_name)
 VALUES
   ((SELECT id FROM users WHERE email = 'shane@mcmahon.com'), 'shane@mcmahon.com', '303-123-4567', 'Shane', 'McMahon'),

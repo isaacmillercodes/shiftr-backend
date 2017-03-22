@@ -1,6 +1,5 @@
 TRUNCATE TABLE schedules;
 
--- create schedules
 INSERT INTO schedules (location_id, start_date, end_date)
 VALUES
   ((SELECT id FROM locations WHERE name = 'Raw Paleo Cafe'), '2017-04-03', '2017-04-16'),

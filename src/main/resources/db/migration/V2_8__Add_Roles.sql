@@ -1,6 +1,5 @@
 TRUNCATE TABLE roles;
 
--- create roles
 INSERT INTO roles (title)
 VALUES
   ('Schedule Admin'),

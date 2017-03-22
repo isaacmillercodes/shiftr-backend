@@ -1,6 +1,5 @@
 TRUNCATE TABLE users;
 
--- create users
 INSERT INTO users (email, password)
 VALUES
   ('vince@mcmahon.com', '$2a$06$uadMvAWv/CuyisavBs0L2Ow4SkiAdDMIRWMy2w6yJAVDEFsZomwNq'),
