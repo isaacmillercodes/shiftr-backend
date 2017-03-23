@@ -40,8 +40,10 @@ VALUES
   ((SELECT user_id FROM employees WHERE email = 'trish@stratus.com'), (SELECT id FROM roles WHERE title = 'Bartender')),
   ((SELECT user_id FROM employees WHERE email = 'becky@lynch.com'), (SELECT id FROM roles WHERE title = 'Host')),
   ((SELECT user_id FROM employees WHERE email = 'becky@lynch.com'), (SELECT id FROM roles WHERE title = 'Server')),
+  ((SELECT user_id FROM employees WHERE email = 'becky@lynch.com'), (SELECT id FROM roles WHERE title = 'Bartender')),
   ((SELECT user_id FROM employees WHERE email = 'shawn@michaels.com'), (SELECT id FROM roles WHERE title = 'Server')),
   ((SELECT user_id FROM employees WHERE email = 'shawn@michaels.com'), (SELECT id FROM roles WHERE title = 'Manager')),
   ((SELECT user_id FROM employees WHERE email = 'dean@ambrose.com'), (SELECT id FROM roles WHERE title = 'Line Cook')),
+  ((SELECT user_id FROM employees WHERE email = 'dean@ambrose.com'), (SELECT id FROM roles WHERE title = 'Bartender')),
   ((SELECT user_id FROM employees WHERE email = 'aj@styles.com'), (SELECT id FROM roles WHERE title = 'Bartender')),
   ((SELECT user_id FROM employees WHERE email = 'aj@styles.com'), (SELECT id FROM roles WHERE title = 'Server'))
