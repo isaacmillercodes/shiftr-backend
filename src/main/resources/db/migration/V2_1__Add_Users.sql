@@ -13,4 +13,14 @@ VALUES
   ('charlotte@flair.com', '$2a$06$tbwr182bN9lpeO1XX40bDuOyTkbYIIDS0d5CZrq40y0SBMd.uDzya'),
   ('kevin@owens.com', '$2a$06$8MKLe1x9MzFADzOaHvpJqOtyNu.gnYpdZZ9A/JJue/slqAklNd7ze'),
   ('finn@balor.com', '$2a$06$QD0z5jxOqnTr0OoIYSzxeucebQinw/q9i6A7t0qY01878ADhRnkZi'),
-  ('shinsuke@nakamura.com', '$2a$06$.6rywIH9Nws0r.2vDpsq9u.XCdbLylyQ1y51rJo4oloie.P98aCDq')
+  ('shinsuke@nakamura.com', '$2a$06$.6rywIH9Nws0r.2vDpsq9u.XCdbLylyQ1y51rJo4oloie.P98aCDq'),
+  ('triple@h.com', '$2a$06$LeWKF/mHh.zH1eFECZ9ms.PNeDUDJEBM/BJGHN2mN3crxdxJOASxa'),
+  ('brock@lesnar.com', '$2a$06$8QIQwYNq4Z5qNEV6DMzJTecrORxoXEiZGeRrESGBlKN.0yaZW7K.6'),
+  ('chris@jericho.com', '$2a$06$slTVS8tzsLhbke.YI4JtXOOXyHqE.hDnY2p4g/ipud2oNI5MUPuSC'),
+  ('bray@wyatt.com', '$2a$06$hKqv04a/aZs3hYqLhFlRSe1x01x7C67kGn5QNmSB9BPAmYDcr.fzC'),
+  ('trish@stratus.com', '$2a$06$JPuKqNw/oiIUAM7tHyZGFuyEN9z7CfWLSIPEyj1Gde9Oq/ZNSOlMi'),
+  ('becky@lynch.com', '$2a$06$s8XE/0pT81P1hD5R6RnYgOsoyCBaykLU/FD96h7ISYsOVBRwMCnIq'),
+  ('aj@styles.com', '$2a$06$7Dy7WndFOJkTMzrEJH8lEORunIMdR499udUkqrMwS2o992hwlAt06'),
+  ('john@cena.com', '$2a$06$/w/fY4./TV53ET16jo/V0OH57Bpgcpjlv9WwUJUF96.v83nrxddOq'),
+  ('shawn@michaels.com', '$2a$06$Q49vBSf9xu9qm.hTnwrwLeGZiKFwjwudOGKEfDu/P1eFWm7KqoIpW'),
+  ('dean@ambrose.com', '$2a$06$k7nCEfGT366LX7zUBAduWeu35vuvemkoWlNS0IU6N.jR4r3Yix8Yu')

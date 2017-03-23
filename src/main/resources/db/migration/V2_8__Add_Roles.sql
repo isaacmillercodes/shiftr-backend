@@ -8,5 +8,4 @@ VALUES
   ('Host'),
   ('Manager'),
   ('Head Chef'),
-  ('Line Cook'),
-  ('Prep Cook')
+  ('Line Cook')
