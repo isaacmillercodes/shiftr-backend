@@ -24,4 +24,7 @@ public class AuthController {
         user.setPassword(encoder.encode(user.getPassword()));
         return this.repository.save(user);
     }
+
+//    @PostMapping("/login")
+    
 }
